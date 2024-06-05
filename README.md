@@ -15,3 +15,7 @@ Save and close the file.
 This will set up a cron job that runs your script every 5 minutes. You can adjust the interval to whatever you prefer by changing the */5 part of the line. For example, */10 would run the script every 10 minutes, */30 would run it every 30 minutes, and so on.
 
 Please note that the path to Python (/usr/bin/python3) might be different on your system. You can find it by running which python3 in the terminal.
+To get the path to Python on your system, you can use the which command in the terminal. Here's how you can do it:
+
+Open your terminal.
+Type which python3 and press Enter.

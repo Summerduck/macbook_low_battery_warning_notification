@@ -52,6 +52,13 @@ To run the script automatically at regular intervals, you can set up a cron job.
    crontab -e
    ```
 
+    When you run `crontab -e`, it most likely may open the crontab file in the vi or vim editor. Here's a quick guide on how to use vi or vim:
+    How to use vi or vim editor:
+    - Press `i` to enter insert mode.
+    - Make the necessary changes.
+    - Press `Esc` to exit insert mode.
+    - Type `:wq` to save and exit the editor.
+
 2. Add the following line to the crontab file:
    ```bash
    */5 * * * * /usr/bin/python3 /path/to/your/macbook_low_battery_warning_notification/main.py
@@ -72,6 +79,11 @@ To run the script automatically at regular intervals, you can set up a cron job.
 5. The script will now run every 5 minutes and send notifications based on the specified thresholds. You can adjust the cron schedule as needed. To change the schedule, modify the `*/5` part of the cron job entry. For example, `*/10` will run the script every 10 minutes.
 
 4. Save and exit the crontab editor.
+
+For more information on using cron jobs, refer to the [Cron Jobs Guide](https://www.ostechnix.com/a-beginners-guide-to-cron-jobs/).
+
+### Using vi or vim Editor for crontab -e
+
 
 ## Files Description
 

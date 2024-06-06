@@ -82,8 +82,6 @@ To run the script automatically at regular intervals, you can set up a cron job.
 
 For more information on using cron jobs, refer to the [Cron Jobs Guide](https://www.ostechnix.com/a-beginners-guide-to-cron-jobs/).
 
-### Using vi or vim Editor for crontab -e
-
 
 ## Files Description
 
